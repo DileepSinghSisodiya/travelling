@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  amount: MyString
+  check_in_time: 2023-02-13 15:15:41
+  check_out_time: 2023-02-13 15:15:41
+  hotel: one
+
+two:
+  type: 
+  amount: MyString
+  check_in_time: 2023-02-13 15:15:41
+  check_out_time: 2023-02-13 15:15:41
+  hotel: two
