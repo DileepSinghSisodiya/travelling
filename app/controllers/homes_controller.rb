@@ -1,7 +1,5 @@
 class HomesController < ApplicationController
-	
-	# def home
-		# render
-  	# end
 
+  def index 
+  end
 end
