@@ -1,14 +1,13 @@
 <nav class="navbar navbar-expand-lg bg-body-secondary" data-bs-theme="dark">
+    <%= link_to root_path, class:"logo-link" do %>
       <%= image_tag 'logo.png', style: 'height:40px;width:auto;' %>
-          <%#= image_tag asset_url('logo.png') %>
+    <% end %>
+      <%#= image_tag asset_url('logo.png') %>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Features</a>
           </li>
